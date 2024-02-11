@@ -75,8 +75,10 @@
                         <img class="info__item__img" src="./img/info_section/star.png" alt="stars">
                     </li>
                     <li>
-                        <h2 class="info__item__title">Indelible paint</h2>
-                        <img class="info__item__img" src="./img/info_section/paints.png" alt="paints">
+                        <div class="info__item__div">
+                            <h2 class="info__item__title">Indelible paint</h2>
+                            <img class="info__item__img" src="./img/info_section/paints.png" alt="paints">
+                        </div>
                     </li>
                     <li>
                         <h2 class="info__item__title">Fast shipping</h2>
@@ -122,12 +124,12 @@
             </div>
         </section>
 
-        <section>
+        <section class="order__section">
             <div class="container">
-                <h2>Order</h2>
-                <form>
-                    <label class="form__main__label" for="email"></label>
-                    <input class="form__main__input" type="email" id="email" placeholder="Write your email Confirm ">
+                <h2 class="order__title">Order</h2>
+                <form class="form__main">
+                    <label class="form__main__label__order" for="email"></label>
+                    <input class="form__main__input__order" type="email" id="email" placeholder="Write your email Confirm ">
 
                     <label class="form__main__label" for="Country"></label>
                     <input class="form__main__input" type="text" id="Country" placeholder="Your Country">
@@ -148,25 +150,31 @@
 
     <footer>
         <div class="container">
-            <ul>
-                <li>
-                    <p>Have a question?</p>
-                    <a href="ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <p class="footer__item__text">Have a question?</p>
+                    <div class="footer__item__div">
+                    <a class="footer__item__link" href="ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+                </div>
                 </li>
-                <li>
-                    <p>Have a proposal for cooperation?</p>
-                    <a href="ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+                <li class="footer__item">
+                    <p class="footer__item__text">Have a proposal for cooperation?</p>
+                    <div class="footer__item__div">
+                    <a class="footer__item__link" href="ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+                </div>
                 </li>
-                <li>
-                    <p>Advertising questions?</p>
-                    <a href="ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+                <li class="footer__item">
+                    <p class="footer__item__text">Advertising questions?</p>
+                    <div class="footer__item__div">
+                    <a class="footer__item__link" href="ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+                </div>
                 </li>
             </ul>
-            <ul>
-                <li>2022 ColoRawe @All rights reserved</li>
-                <li>United States</li>
+            <ul class="footer__list__info">
+                <li class="footer__list__text"><p>2022 ColoRawe @All rights reserved</p></li>
+                <li class="footer__list__text"><p>United States</p></li>
             </ul>
-            <a href="#"><img src="./img/logo_nike.png" alt="logo"></a>
+            <a class="footer__logo" href="#"><img src="./img/logo_nike.png" alt="logo"></a>
         </div>
     </footer>
 </body>
