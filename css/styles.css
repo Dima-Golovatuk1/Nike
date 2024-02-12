@@ -201,7 +201,8 @@ gap: 145px;
 }
 
 
-.info__item{
+.info__item:nth-child(1),
+.info__item:nth-child(2){
     width: 240px;
 height: 352px;
 display: flex;
