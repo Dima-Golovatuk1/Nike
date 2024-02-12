@@ -464,7 +464,6 @@ footer{
 .footer__item {
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -519,12 +518,25 @@ text-align: left;
 }
 
 
-.footer__div__logo{
+
+.footer__c-and-r{
+    color: rgb(255, 255, 255);
+font-family: "PT Serif", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 750px;
+}
+
+.footer__div-logo{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
 }
 
 
 .footer__div{
     display: flex;
 }
+
