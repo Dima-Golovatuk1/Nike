@@ -37,7 +37,7 @@
 
 .header__nav_item {
     color: rgb(199, 199, 199);
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 300;
     line-height: 28px;
@@ -46,14 +46,21 @@
 }
 
 
-.header__nav__item__link:hover {
+.header__nav__item__link:hover,
+.header__nav__item__link:focus{
     color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 
 .language_list {
     display: flex;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
 font-size: 24px;
 font-weight: 300;
 line-height: 28px;
@@ -94,25 +101,25 @@ gap: 15px;
 .hero__logo__img {
     width: 160px;
     height: 120px;
-    display: block;
 }
 
 
 .hero__suptitle_c-and-r{
     color: rgb(255, 255, 255);
-font-family: "PT Serif" sans-serif;
+font-family: "PT Serif", sans-serif;
 font-size: 48px;
 font-weight: 400;
 line-height: 64px;
 letter-spacing: 0%;
 text-align: left;
-margin-left: 31px;
+margin-left: 27px;
+margin-top: -35px;
 }
 
 
 .hero__title {
     color: rgb(255, 255, 255);
-font-family: "Playfair Display" sans-serif;
+font-family: "Playfair Display", sans-serif;
 font-size: 144px;
 font-weight: 400;
 line-height: 192px;
@@ -124,7 +131,7 @@ margin-top: -35px;
 
 .hero__suptitle {
     color: rgb(255, 255, 255);
-font-family: "Playfair Display" sans-serif;
+font-family: "Playfair Display", sans-serif;
 font-size: 72px;
 font-weight: 400;
 line-height: 96px;
@@ -136,7 +143,7 @@ margin-top: -35px;
 
 .hero__text {
     color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 21px;
@@ -150,7 +157,7 @@ height: 84px;
 
 .hero__button {
     color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 28px;
@@ -182,6 +189,7 @@ margin-bottom: 183px;
 }
 
 
+
 .info__list {
     display: flex;
     gap: 145px;
@@ -189,19 +197,24 @@ margin-bottom: 183px;
     border: 5px solid rgb(142, 50, 198);
     width: 1110px;
 height: 396px;
+gap: 145px;
 }
 
 
-/* .info__item{
+.info__item{
     width: 240px;
 height: 352px;
-border-right: 1px solid rgb(255, 255, 255) ; 
-} */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+border-right: 1px solid rgb(255, 255, 255); 
+}
 
 
 .info__item__title {
     color: rgb(255, 255, 255);
-font-family: "Playfair Display" sans-serif;
+font-family: "Playfair Display", sans-serif;
 font-size: 36px;
 font-weight: 400;
 line-height: 48px;
@@ -239,7 +252,7 @@ padding-top: 25px;
 
 .reviews__title {
     color: rgb(255, 255, 255);
-font-family: Playfair Display;
+font-family: "Playfair Display", sans-serif;
 font-size: 48px;
 font-weight: 400;
 line-height: 64px;
@@ -276,7 +289,7 @@ background-image: linear-gradient(135.00deg, rgb(0, 229, 230) 7.292%,rgb(0, 168,
     content: "25.11";
     display: block;
     color: rgb(216, 216, 216);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
@@ -295,7 +308,7 @@ text-align: left;
     content: "05.01";
     display: block;
     color: rgb(216, 216, 216);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
@@ -314,7 +327,7 @@ text-align: left;
     content: "18.06";
     display: block;
     color: rgb(216, 216, 216);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
@@ -330,21 +343,27 @@ text-align: left;
     align-items:center
 }
 
+/* .reviews__item__div{
+    display: flex;
+} */
+
 
 .reviews__item__div::before{
-    content: "  ";
+    content: "";
     background-image: url(../img/reviews_section/john.png);
+    border-radius:100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 31px;
-height: 31px;
+    height: 31px;
+    display: flex;
 }
 
 
 .reviews__item__text {
     color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 28px;
@@ -358,7 +377,7 @@ padding-left: 13px;
 
 .reviews__item__name {
     color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
@@ -370,7 +389,7 @@ padding-left: 49px;
 
 .reviews__item__from {
     color: rgb(216, 216, 216);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 12px;
 font-weight: 400;
 line-height: 14px;
@@ -398,7 +417,7 @@ padding-left: 49px;
 
 .order__title {
     color: rgb(255, 255, 255);
-    font-family: "Playfair Display" sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 64px;
@@ -420,7 +439,7 @@ padding-left: 49px;
 
 .form__main__input__order {
     color: rgb(149, 149, 149);
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 28px;
     font-weight: 400;
     line-height: 33px;
@@ -430,12 +449,13 @@ padding-left: 49px;
     background-color: rgb(255, 255, 255);
     width: 690px;
     height: 60px;
+    padding-left: 25px;
 }
 
 
 .form__main__input {
     color: rgb(149, 149, 149);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 28px;
@@ -445,6 +465,7 @@ border-radius: 50px;
 background-color: rgb(255, 255, 255);
 width: 580px;
 height: 50px;
+padding-left: 24px;
 }
 
 
@@ -454,7 +475,7 @@ background: rgb(142, 50, 198);
 width: 248px;
 height: 68px;
 color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 28px;
@@ -501,7 +522,7 @@ footer{
 
 .footer__item__text {
     color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 28px;
@@ -512,7 +533,7 @@ text-align: left;
 
 .footer__item__link {
     color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 28px;
@@ -529,7 +550,7 @@ text-decoration-line: underline;
 
 .footer__list__text {
     color: rgb(255, 255, 255);
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 21px;
