@@ -78,7 +78,7 @@ gap: 15px;
 
 /* hero */
 .hero {
-    background-image: url(../img/hero/background_hero.png);
+    background-image: url(../img/hero/background_hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,7 +172,7 @@ margin-bottom: 183px;
 
 .info__section {
     height: 606px;
-    background-image: url(../img/info_section/background.png);
+    background-image: url(../img/info_section/background.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ margin-bottom: 183px;
 /* reviews */
 .reviews__section {
     background:url(../img/reviews_section/flowers.png) no-repeat left bottom,
-    url(../img/reviews_section/background.png) no-repeat center;
+    url(../img/reviews_section/background.jpg) no-repeat center;
     height: 500px;
     background-size: auto, cover;
     margin-top: 1px;
@@ -343,7 +343,7 @@ text-align: left;
 
 /* oreder */
 .order__section {
-    background-image: url(../img/order/order.png);
+    background-image: url(../img/order/order.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -427,7 +427,7 @@ align-items: center;
 
                                 /* footer */
 footer{
-    background-image: url(../img/footer/footer.png);
+    background-image: url(../img/footer/footer.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
