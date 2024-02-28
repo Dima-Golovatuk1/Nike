@@ -425,19 +425,12 @@ line-height: 21px;
 }
 
 
-.footer__logo {
-    /* margin-left: 724px; */
-}
-
-
-
 .footer__c-and-r{
     color: rgb(255, 255, 255);
 font-family: "PT Serif", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 32px;
-/* padding-left: 750px; */
 }
 
 .footer__div-logo{
